@@ -20,20 +20,36 @@
 
     div img {   
         display: flex;
+        background-image: url(images/image-header-mobile.jpg);
         width: 350px;
-        height: 200px;
+        height: 250px;
         border-radius: 8px 8px 0px 0px;
     }
 
     h1 {
         color: white;
-        padding: 30px 0px 20px 40px;
-        font-size: 1.8em;
+        padding: 30px 5px 5px 40px;
+        font-size: 1.6em;
     }
 
-    h1 .word-wrap {
-        display: block;
-        margin: 0px 0px 0px 85px;
+    .comentario {
+        padding: 10px 0px 0px 40px;
+        line-height: 23px;
+    }
+
+    .complements {
+        flex-direction: column;
+        padding: 10px 20px 20px 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .complements p {
+        color: white;
+        margin: 20px 70px 0px 0px;
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: 600;
     }
     
 }
