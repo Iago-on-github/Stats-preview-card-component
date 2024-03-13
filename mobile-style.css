@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 388px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
     .wrapper {
         display: flex;
         justify-content: center;
@@ -13,7 +13,7 @@
 
     section {
         background-color: #1C1937;
-        width: 350px;
+        width: 400px;
         height: 700px;
         border-radius: 0px 0px 8px 8px;
     }
@@ -21,7 +21,7 @@
     div img {   
         display: flex;
         background-image: url(images/image-header-mobile.jpg);
-        width: 350px;
+        width: 400px;
         height: 250px;
         border-radius: 8px 8px 0px 0px;
     }
