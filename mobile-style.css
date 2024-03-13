@@ -13,7 +13,7 @@
 
     section {
         background-color: #1C1937;
-        width: 400px;
+        width: 330px;
         height: 700px;
         border-radius: 0px 0px 8px 8px;
     }
@@ -21,7 +21,7 @@
     div img {   
         display: flex;
         background-image: url(images/image-header-mobile.jpg);
-        width: 400px;
+        width: 330px;
         height: 250px;
         border-radius: 8px 8px 0px 0px;
     }
